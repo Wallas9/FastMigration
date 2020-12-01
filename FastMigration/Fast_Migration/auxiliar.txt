@@ -1,0 +1,7 @@
+string MySql = $@"server = 127.0.0.1; user id = root; database = escola";
+            MySqlConnection conn = new MySqlConnection(MySql);
+            conn.Open();
+
+            string FbConn = @"DataSource = localhost; Database = C:\Users\Wallas\Documents\MACHADO.FDB; username = SYSDBA; password = masterkey; CHARSET = NONE;";
+            FbConnection conn2 = new FbConnection(FbConn);
+            conn2.Open();
