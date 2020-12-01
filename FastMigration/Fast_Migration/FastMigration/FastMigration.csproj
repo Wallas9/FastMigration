@@ -84,6 +84,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Connection.cs" />
     <Compile Include="Etapas\Daily.cs" />
     <Compile Include="Etapas\Form2.cs">
       <SubType>Form</SubType>

@@ -24,8 +24,11 @@ namespace FastMigration
         public void button1_Click(object sender, EventArgs e)
         {
 
-            var tabela = ImportLookup.SearchForTableArgs(comboTabela.Text);
-            tabela.ExecutarProcedimento(textBox1.Text, textBox3.Text, textBox4.Text,
+            //var tabela = ImportLookup.SearchForTableArgs(comboTabela.Text);
+            //tabela.ExecutarProcedimento(textBox1.Text, textBox3.Text, textBox4.Text,
+            //    textBox5.Text, textBox6.Text, textBox7.Text, textBox8.Text, textBox2.Text, comboTabela.Text);
+
+            Connection.ConnectionBD(textBox1.Text, textBox3.Text, textBox4.Text,
                 textBox5.Text, textBox6.Text, textBox7.Text, textBox8.Text, textBox2.Text, comboTabela.Text);
         }
 
